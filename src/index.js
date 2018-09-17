@@ -78,7 +78,7 @@ ReactDOM.render(
 		text={idcardbox.text}
 		author={idcardbox.author}
 	/>,
-	document.getElementById("avatar")
+	document.getElementById("idcardbox")
 );
 
 const element = <h1>Hello, {formatName(user)}!</h1>;
