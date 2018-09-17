@@ -1,4 +1,11 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+	font-family: sans-serif;
+	text-align: center;
+}
+.usermessage {
+	color: blue !important;
+	margin: 0px;
+}
+.idcardbox {
+	border: 5px dashed pink;
 }
