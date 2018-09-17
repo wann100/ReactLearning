@@ -1,11 +1,23 @@
 .App {
+	color: white !important;
 	font-family: sans-serif;
 	text-align: center;
 }
+body {
+	color: white;
+	background: url("https://source.unsplash.com/1506x817/?nature");
+}
 .usermessage {
 	color: blue !important;
-	margin: 0px;
+	margin: 5px;
+}
+.Avatar {
+	width: 100px;
+	margin: 20px;
 }
 .idcardbox {
-	border: 5px dashed pink;
+	background-color: white;
+	opacity: 0.9;
+	filter: alpha(opacity=30);
+	border-radius: 30px;
 }
