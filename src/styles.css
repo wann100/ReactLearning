@@ -5,15 +5,17 @@
 }
 body {
 	color: white;
-	background: url("https://source.unsplash.com/1506x817/?nature");
+	background: url("https://source.unsplash.com/2043x2043/?nature");
+	background-repeat: no-repeat;
 }
 .usermessage {
-	color: blue !important;
+	color: rgb(108, 174, 221) !important;
 	margin: 5px;
 }
 .Avatar {
 	width: 100px;
 	margin: 20px;
+	border-radius: 50%;
 }
 .idcardbox {
 	background-color: white;
