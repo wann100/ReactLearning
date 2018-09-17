@@ -56,8 +56,6 @@ function Idcardbox(props) {
 						<UserInfo user={props.author} />
 					</h1>
 				</div>
-				<p>{props.text}</p>
-				<p>{formatDate(props.date)}</p>
 			</div>
 		</div>
 	);
