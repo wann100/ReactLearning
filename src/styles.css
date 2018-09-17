@@ -10,11 +10,12 @@ body {
 }
 .usermessage {
 	color: rgb(108, 174, 221) !important;
-	margin: 5px;
+	margin: 25px;
 }
 .Avatar {
 	width: 20%;
 	border-radius: 50%;
+	overflow: hidden;
 }
 .idcardbox {
 	background-color: white;
@@ -26,4 +27,5 @@ body {
 	background-repeat: no-repeat;
 	background-position-x: 50%;
 	background-position-y: 50%;
+	overflow: hidden;
 }

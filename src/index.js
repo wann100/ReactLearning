@@ -65,19 +65,13 @@ function Idcardbox(props) {
 
 const idcardbox = {
 	date: new Date(),
-	text: "React is just the start",
 	author: {
-		message: "This is Blue",
 		avatarUrl:
 			"https://static.wixstatic.com/media/2b328e_daba88939bbe467295c6083beccc532e~mv2.jpg/v1/fill/w_280,h_280,al_c,lg_1,q_80/2b328e_daba88939bbe467295c6083beccc532e~mv2.webp"
 	}
 };
 ReactDOM.render(
-	<Idcardbox
-		date={idcardbox.date}
-		text={idcardbox.text}
-		author={idcardbox.author}
-	/>,
+	<Idcardbox date={idcardbox.date} author={idcardbox.author} />,
 	document.getElementById("idcardbox")
 );
 
