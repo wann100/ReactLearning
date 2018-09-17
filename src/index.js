@@ -46,7 +46,7 @@ function UserInfo(props) {
 	);
 }
 
-function Comment(props) {
+function Idcardbox(props) {
 	return (
 		<div className="idcardbox">
 			<div className="Comment">
@@ -63,7 +63,7 @@ function Comment(props) {
 	);
 }
 
-const comment = {
+const idcardbox = {
 	date: new Date(),
 	text: "React is just the start",
 	author: {
@@ -73,7 +73,11 @@ const comment = {
 	}
 };
 ReactDOM.render(
-	<Comment date={comment.date} text={comment.text} author={comment.author} />,
+	<Idcardbox
+		date={idcardbox.date}
+		text={idcardbox.text}
+		author={idcardbox.author}
+	/>,
 	document.getElementById("avatar")
 );
 
